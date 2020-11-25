@@ -1,5 +1,5 @@
 /**
- * 
+ * 距离顺序排列矩阵单元格
  * @param {number} R 
  * @param {number} C 
  * @param {number} r0 
