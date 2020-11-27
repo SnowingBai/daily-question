@@ -1,5 +1,5 @@
 /**
- * 
+ * 最接近原点的K个点
  * @param {number[][]} points
  * @param {number} K
  * @return {number[][]}
