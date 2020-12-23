@@ -17,8 +17,10 @@ var firstUniqChar = function(s) {
     }
   }
 
-  for (const [index, val] of Array.from(s).entries()) {
-    if (obj[val].count === 1) return index
+  for (const key in obj) {
+    if (obj[key] && obj[key].count === 1) {
+      return obj[key].index
+    }
   }
 
   return -1
